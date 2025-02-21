@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.glassmorphism-bg {
+  background: rgba(255, 255, 255, 0.2); /* Slightly opaque white */
+  backdrop-filter: blur(10px); /* Apply blur */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Text Glow Effect */
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+/* Link Hover Effect */
+.link:hover {
+  color: #FFD700; /* Gold color on hover */
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.7), 0 0 20px rgba(255, 215, 0, 0.7);
+}
